@@ -12,8 +12,12 @@ $(document).ready(function(){
     messagingSenderId: "1003109742456",
     appId: "1:1003109742456:web:a42cb33d39c37d73b1ba8d"
   };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+
    
     let database = firebase.database();
    
